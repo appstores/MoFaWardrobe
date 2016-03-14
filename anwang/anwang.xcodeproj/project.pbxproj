@@ -15,6 +15,9 @@
 		18F533C11C95AA8000029B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F533BF1C95AA8000029B19 /* LaunchScreen.storyboard */; };
 		18F533CC1C95AA8100029B19 /* anwangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F533CB1C95AA8100029B19 /* anwangTests.m */; };
 		18F533D71C95AA8100029B19 /* anwangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F533D61C95AA8100029B19 /* anwangUITests.m */; };
+		18F533ED1C95D21200029B19 /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F533E91C95D21200029B19 /* MBProgressHUD+XMG.m */; };
+		18F533EE1C95D21200029B19 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18F533EA1C95D21200029B19 /* MBProgressHUD.bundle */; };
+		18F533EF1C95D21200029B19 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F533EC1C95D21200029B19 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		18F533D21C95AA8100029B19 /* anwangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anwangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F533D61C95AA8100029B19 /* anwangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = anwangUITests.m; sourceTree = "<group>"; };
 		18F533D81C95AA8100029B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F533E81C95D21200029B19 /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		18F533E91C95D21200029B19 /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		18F533EA1C95D21200029B19 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		18F533EB1C95D21200029B19 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		18F533EC1C95D21200029B19 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 				18F533BD1C95AA8000029B19 /* Assets.xcassets */,
 				18F533BF1C95AA8000029B19 /* LaunchScreen.storyboard */,
 				18F533C21C95AA8000029B19 /* Info.plist */,
+				18F533E71C95D21200029B19 /* MBProgressHUD */,
 				18F533B11C95AA8000029B19 /* Supporting Files */,
 			);
 			path = anwang;
@@ -138,6 +147,18 @@
 				18F533D81C95AA8100029B19 /* Info.plist */,
 			);
 			path = anwangUITests;
+			sourceTree = "<group>";
+		};
+		18F533E71C95D21200029B19 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18F533E81C95D21200029B19 /* MBProgressHUD+XMG.h */,
+				18F533E91C95D21200029B19 /* MBProgressHUD+XMG.m */,
+				18F533EA1C95D21200029B19 /* MBProgressHUD.bundle */,
+				18F533EB1C95D21200029B19 /* MBProgressHUD.h */,
+				18F533EC1C95D21200029B19 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F533C11C95AA8000029B19 /* LaunchScreen.storyboard in Resources */,
+				18F533EE1C95D21200029B19 /* MBProgressHUD.bundle in Resources */,
 				18F533BE1C95AA8000029B19 /* Assets.xcassets in Resources */,
 				18F533BC1C95AA8000029B19 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +294,8 @@
 			files = (
 				18F533B91C95AA8000029B19 /* ViewController.m in Sources */,
 				18F533B61C95AA8000029B19 /* AppDelegate.m in Sources */,
+				18F533EF1C95D21200029B19 /* MBProgressHUD.m in Sources */,
+				18F533ED1C95D21200029B19 /* MBProgressHUD+XMG.m in Sources */,
 				18F533B31C95AA8000029B19 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
